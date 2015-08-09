@@ -81,6 +81,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\gmock\src\gmock_main.cc" />
+    <ClCompile Include="..\..\src\TestGTestRunFlow\RunFlowEnvironment.hpp" />
+    <ClCompile Include="..\..\src\TestGTestRunFlow\TestCaseRunFlow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\TestGTestRunFlow\RunFlowTestSuite.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gmock", "gmock\gmock.vcxproj", "{02C04224-5A2B-4B29-9A38-98D01DB264E4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestGTestRunFlow", "TestGTestRunFlow\TestGTestRunFlow.vcxproj", "{2C562BEB-50D8-4115-8576-F4F6B2C5C9D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02C04224-5A2B-4B29-9A38-98D01DB264E4} = {02C04224-5A2B-4B29-9A38-98D01DB264E4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
