@@ -80,7 +80,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\gmock\src\gmock_main.cc" />
+    <ClCompile Include="..\..\src\TestGTestRunFlow\main.cpp" />
     <ClCompile Include="..\..\src\TestGTestRunFlow\RunFlowEnvironment.hpp" />
     <ClCompile Include="..\..\src\TestGTestRunFlow\TestCaseRunFlow.cpp" />
   </ItemGroup>

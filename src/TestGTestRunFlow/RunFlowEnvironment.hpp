@@ -15,12 +15,12 @@ public:
         std::cout << "Environment destruct leaving..." << std::endl;
     }
 
-    void SetUp()
+    virtual void SetUp()
     {
         std::cout << "Environment SetUp entered..." << std::endl;
     }
 
-    void TearDown()
+    virtual void TearDown()
     {
         std::cout << "Environment TearDown leaving..." << std::endl;
     }

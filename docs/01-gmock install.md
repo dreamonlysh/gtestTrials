@@ -43,3 +43,7 @@ $(ROOT_PATH)/gmock-1.7.0/gtest/include
 ```
 5.右键Set As StartUp Project
 6.运行工程，可见0测试控制台界面
+
+[Source file can be got from github][github]
+
+[github]: https://github.com/dreamonlysh/gtestTrials

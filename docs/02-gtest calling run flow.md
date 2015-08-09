@@ -8,11 +8,13 @@
 - TestFixture2(Test: NoName)
 - TEST
 
-2.操作打印结果
+2.操作打印结果(entered.../leaving...)
 ``` console print
 Running main() from gmock_main.cc
+Environment construct entered...                                
 [==========] Running 4 tests from 3 test cases.
-[----------] Global test environment set-up.                    0-- Run Environment SetUp
+[----------] Global test environment set-up.                    
+Environment SetUp entered...                                    0-- Run Environment SetUp
 [----------] 1 test from TestNoFixture
 [ RUN      ] TestNoFixture.NoName
 TEST TestNoFixture
@@ -50,9 +52,11 @@ TestFixture2 destruct leaving...                                2-- End TestFixt
 TestFixture2 TearDownTestCase leaving...                        1-- End TestFixture2 TearDownTestCase
 [----------] 1 test from TestFixture2 (0 ms total)
 
-[----------] Global test environment tear-down                  0-- Run Environment TearDowm
+[----------] Global test environment tear-down                  
+Environment TearDown leaving...                                 0-- Run Environment TearDowm
 [==========] 4 tests from 3 test cases ran. (32 ms total)
 [  PASSED  ] 4 tests.
+Environment destruct leaving...
 Press any key to continue . . .
 ```
 
