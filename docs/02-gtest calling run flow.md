@@ -222,3 +222,7 @@ internal::HandleExceptionsInMethodIfSupported(
 1.Environment对象在所有测试用例执行前创建，并执行各自的SetUp方法；所有测试用例执行完成后，执行TearDown方法。
 2.TestCase(测试用例)会为它名下的所有Tests唯一调用一次SetUpTestCase和TearDownTestCase方法。此时测试对象并未构建。
 3.每一个测试实例的执行，均会单独构建实例，并调用一次SetUp和TearDown方法，所以测试实例间SetUp/TearDown中的内容，以及testing::Test对象中的非静态成员均是每次重新构建，非共享。而静态的成员会在同一测试用例下的所有测试实例间共享。
+
+[Source file can be got from github][github]
+
+[github]: https://github.com/dreamonlysh/gtestTrials

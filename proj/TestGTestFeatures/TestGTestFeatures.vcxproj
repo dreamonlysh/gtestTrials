@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2C562BEB-50D8-4115-8576-F4F6B2C5C9D3}</ProjectGuid>
+    <ProjectGuid>{5A935FFC-C076-4ADE-B224-51F70959C83E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TestGTestRunFlow</RootNamespace>
+    <RootNamespace>TestGTestFeatures</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,12 +80,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\TestGTestRunFlow\main.cpp" />
-    <ClCompile Include="..\..\src\TestGTestRunFlow\RunFlowEnvironment.hpp" />
-    <ClCompile Include="..\..\src\TestGTestRunFlow\TestCaseRunFlow.cpp" />
+    <ClCompile Include="..\..\src\TestGTestFeatures\FeaValPatternTestCase.cpp" />
+    <ClCompile Include="..\..\src\TestGTestFeatures\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\TestGTestRunFlow\RunFlowTestSuite.hpp" />
+    <ClInclude Include="..\..\src\TestGTestFeatures\FeaValPatternTestSuite.hpp" />
+    <ClInclude Include="..\..\src\TestGTestFeatures\TestSource.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
